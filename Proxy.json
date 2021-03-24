@@ -1,0 +1,12 @@
+[
+    {
+        "outboundTag": "block",
+        "domain": [
+            "geosite:category-ads-all"
+        ]
+    },
+    {
+        "port": "0-65535",
+        "outboundTag": "proxy"
+    }
+]

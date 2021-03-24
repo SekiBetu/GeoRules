@@ -1,0 +1,35 @@
+[
+    {
+        "outboundTag": "block",
+        "domain": [
+            "geosite:category-ads-all"
+        ]
+    },
+    {
+        "outboundTag": "proxy",
+        "domain": [
+            "geosite:google",
+            "geosite:microsoft",
+            "domain:adnmb2.com"
+        ]
+    },
+    {
+        "outboundTag": "direct",
+        "domain": [
+            "geosite:cn",
+            "geosite:steam@cn",
+            "domain:lt2333.com"
+        ]
+    },
+    {
+        "outboundTag": "direct",
+        "ip": [
+            "geoip:private",
+            "geoip:cn"
+        ]
+    },
+    {
+        "port": "0-65535",
+        "outboundTag": "proxy"
+    }
+]
