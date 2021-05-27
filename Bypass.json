@@ -10,6 +10,7 @@
         "domain": [
             "geosite:google",
             "geosite:microsoft",
+            "geosite:microsoft-dev",
             "geosite:tiktok",
             "domain:adnmb2.com"
         ]
